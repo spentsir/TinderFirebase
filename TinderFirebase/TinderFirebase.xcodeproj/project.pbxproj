@@ -11,6 +11,7 @@
 		BF8C5BB221D449DE0096117A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8C5BB121D449DE0096117A /* CardView.swift */; };
 		BF9B841D21D748A400FD575F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9B841C21D748A400FD575F /* User.swift */; };
 		BF9B842121D750DF00FD575F /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9B842021D750DF00FD575F /* CardViewModel.swift */; };
+		BF9B842321D7569A00FD575F /* Advertiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9B842221D7569A00FD575F /* Advertiser.swift */; };
 		BFE2D26121CD9370000675C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE2D26021CD9370000675C7 /* AppDelegate.swift */; };
 		BFE2D26321CD9370000675C7 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE2D26221CD9370000675C7 /* HomeController.swift */; };
 		BFE2D26621CD9370000675C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE2D26421CD9370000675C7 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 		BF8C5BB121D449DE0096117A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		BF9B841C21D748A400FD575F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BF9B842021D750DF00FD575F /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		BF9B842221D7569A00FD575F /* Advertiser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advertiser.swift; sourceTree = "<group>"; };
 		BFE2D25D21CD9370000675C7 /* TinderFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE2D26021CD9370000675C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFE2D26221CD9370000675C7 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				BF9B841C21D748A400FD575F /* User.swift */,
+				BF9B842221D7569A00FD575F /* Advertiser.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			files = (
 				BFE2D27921CDA437000675C7 /* HomeBottomControllsStackView.swift in Sources */,
 				BFE2D26321CD9370000675C7 /* HomeController.swift in Sources */,
+				BF9B842321D7569A00FD575F /* Advertiser.swift in Sources */,
 				BFE2D26121CD9370000675C7 /* AppDelegate.swift in Sources */,
 				BFE2D27621CD972D000675C7 /* Extensions+UIView.swift in Sources */,
 				BF9B842121D750DF00FD575F /* CardViewModel.swift in Sources */,
