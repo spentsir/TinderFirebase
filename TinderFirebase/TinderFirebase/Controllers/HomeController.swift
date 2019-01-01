@@ -18,12 +18,12 @@ class HomeController: UIViewController {
         let producers = [
             User(name: "Kelly", age: 23, profession: "Music DJ", imageNames: ["kelly1", "kelly2", "kelly3"]),
             User(name: "Jane", age: 20, profession: "Teacher", imageNames: ["jane1", "jane2", "jane3"]),
-            Advertiser(title: "Slide Out Menu", brandName: "Advertising", posterPhotoName: "space123"),
+            Advertiser(title: "TEST FOR ADVERTISING", brandName: "Advertising", posterPhotoName: "space123"),
             User(name: "Jane", age: 20, profession: "Teacher", imageNames: ["jane1", "jane2", "jane3"])
         ] as [ProducesCardViewModel]
         
         let viewModels = producers.map({return $0.toCardViewModel()})
-        return viewModels
+        return viewModels 
     }()
 
     override func viewDidLoad() {
