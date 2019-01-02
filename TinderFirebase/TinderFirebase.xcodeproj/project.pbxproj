@@ -15,6 +15,8 @@
 		BF9B842521DC108100FD575F /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9B842421DC108100FD575F /* RegistrationController.swift */; };
 		BF9B842721DC16BF00FD575F /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9B842621DC16BF00FD575F /* CustomTextField.swift */; };
 		BF9B842921DC379E00FD575F /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9B842821DC379E00FD575F /* RegistrationViewModel.swift */; };
+		BF9B842B21DC49B300FD575F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF9B842A21DC49B300FD575F /* GoogleService-Info.plist */; };
+		BF9B842D21DC78E200FD575F /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9B842C21DC78E200FD575F /* Bindable.swift */; };
 		BFE2D26121CD9370000675C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE2D26021CD9370000675C7 /* AppDelegate.swift */; };
 		BFE2D26321CD9370000675C7 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE2D26221CD9370000675C7 /* HomeController.swift */; };
 		BFE2D26621CD9370000675C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE2D26421CD9370000675C7 /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 		BF9B842421DC108100FD575F /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		BF9B842621DC16BF00FD575F /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		BF9B842821DC379E00FD575F /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		BF9B842A21DC49B300FD575F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BF9B842C21DC78E200FD575F /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
 		BFE2D25D21CD9370000675C7 /* TinderFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE2D26021CD9370000675C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFE2D26221CD9370000675C7 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
@@ -92,6 +96,7 @@
 				BFE2D26221CD9370000675C7 /* HomeController.swift */,
 				BF9B842421DC108100FD575F /* RegistrationController.swift */,
 				BF9B842821DC379E00FD575F /* RegistrationViewModel.swift */,
+				BF9B842C21DC78E200FD575F /* Bindable.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -135,6 +140,7 @@
 				BFE2D26721CD9372000675C7 /* Assets.xcassets */,
 				BFE2D26921CD9372000675C7 /* LaunchScreen.storyboard */,
 				BFE2D26C21CD9372000675C7 /* Info.plist */,
+				BF9B842A21DC49B300FD575F /* GoogleService-Info.plist */,
 			);
 			path = TinderFirebase;
 			sourceTree = "<group>";
@@ -222,6 +228,7 @@
 				BFE2D26B21CD9372000675C7 /* LaunchScreen.storyboard in Resources */,
 				BFE2D26821CD9372000675C7 /* Assets.xcassets in Resources */,
 				BFE2D26621CD9370000675C7 /* Main.storyboard in Resources */,
+				BF9B842B21DC49B300FD575F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF9B842D21DC78E200FD575F /* Bindable.swift in Sources */,
 				BFE2D27921CDA437000675C7 /* HomeBottomControllsStackView.swift in Sources */,
 				BF9B842921DC379E00FD575F /* RegistrationViewModel.swift in Sources */,
 				BF9B842721DC16BF00FD575F /* CustomTextField.swift in Sources */,
